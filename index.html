@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Проект Место</title>
+        <link rel="stylesheet" href="./pages/index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Бедарев Андрей">
+        <meta name="description" content="Сайт, созданный в рамках второго спринта в Яндекс.Практикум на курсе 'Веб-разработчик-плюс'">
+        <meta name="keywords" content="Яндекс Практикум, Проект 'место'">
+    </head>
+
+    <body class="body">
+        <header class="header">
+            <img class = "header__logo" src = "images/header/__logo/header__logo.png" alt = "Логотип проекта 'Место'">
+        </header>
+
+        <div class = "main-content">
+            <section class="profile" aria-label="Секция с данными о пользователе и возможностью их редактирования">
+                <div class = "profile__container">
+                    <div class = "profile__avatar-container">
+                        <img class = "profile__avatar" src = "images/profile/__avatar/profile__avatar.jpg" alt = "Жак Ив Кусто">
+                    </div>
+                    <ul class = "profile__items">
+                        <li class = "profile__name">Жак-Ив Кусто
+                            <button type = "button" class = "profile__edit-button"></button>
+                        </li>
+                        <li class = "profile__profession">Исследователь океана </li>
+                    </ul>
+                </div>       
+                <button type = "button" class = "profile__add-button"></button>
+            </section>
+
+            <div class = "popup popup_opened">
+                <div class="popup__container popup__container_profile_edit">
+                    <button class="popup__close-button" type="button"></button>
+                    <p class="popup__title">Редактировать профиль</p>
+                    <form class="popup__form" name="edit-form" method="GET" novalidate>
+                        <fieldset class="popup__get-info">
+                            <input class="popup__input" placeholder = "Жак-Ив Кусто" type="text" name="user-name" id="user-name" minlength="2" maxlength="16" required>
+                            <input class="popup__input" placeholder = "Исследователь океана" type="text" name="user-job" id="user-job" minlength="2" maxlength="16" required>
+                        </fieldset>
+                        <button class="popup__submit-button" type="submit" >Сохранить</button>
+                    </form>
+                </div>
+            </div>
+
+            <section class = "elements" aria-label="Секция с фотографиями и возможностью ставить лайки">
+                <div class = "element">
+                    <img class = "element__photo" src = "images/element/__photo/element__photo-1.jpg" alt = "Карачаевск">
+                    <ul class = "element__items">
+                       <li class = "element__item">Карачаевск</li>
+                       <li class = "element__item">
+                        <button class = "element__like-button element__like-button_active"></button>
+                       </li> 
+                    </ul>
+                </div>
+                <div class = "element">
+                    <img class = "element__photo" src = "images/element/__photo/element__photo-2.png" alt = "Гора Эльбрус">
+                    <ul class = "element__items">
+                       <li class = "element__item">Гора Эльбрус</li>
+                       <li class = "element__item">
+                        <button class = "element__like-button element__like-button_active"></button>
+                       </li> 
+                    </ul>
+                </div>
+                <div class = "element">
+                    <img class = "element__photo" src = "images/element/__photo/element__photo-3.png" alt = "Домбай">
+                    <ul class = "element__items">
+                       <li class = "element__item">Домбай</li>
+                       <li class = "element__item">
+                        <button class = "element__like-button element__like-button_active"></button>
+                       </li> 
+                    </ul>
+                </div>
+                <div class = "element">
+                    <img class = "element__photo" src = "images/element/__photo/element__photo-3.png" alt = "Гора Эльбрус">
+                    <ul class = "element__items">
+                       <li class = "element__item">Гора Эльбрус</li>
+                       <li class = "element__item">
+                        <button class = "element__like-button element__like-button_active"></button>
+                       </li> 
+                    </ul>
+                </div>
+                <div class = "element">
+                    <img class = "element__photo" src = "images/element/__photo/element__photo-2.png" alt = "Домбай">
+                    <ul class = "element__items">
+                       <li class = "element__item">Домбай</li>
+                       <li class = "element__item">
+                        <button class = "element__like-button element__like-button_active"></button>
+                       </li> 
+                    </ul>
+                </div>
+                <div class = "element">
+                    <img class = "element__photo" src = "images/element/__photo/element__photo-1.jpg" alt = "Карачаево-Черкессия">
+                    <ul class = "element__items">
+                       <li class = "element__item">Карачаево-Черкессия</li>
+                       <li class = "element__item">
+                        <button class = "element__like-button element__like-button_active"></button>
+                       </li> 
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <footer class = "footer">
+            <p class="footer__copyright">&copy;2023 Андрей Бедарев</p>
+        </footer>
+    </body>
+</html>    
+            
