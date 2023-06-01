@@ -7,6 +7,9 @@
    font-weight: 400;
 font-size: 14px;
 line-height: 17px;
+text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .popup__input:focus{
@@ -19,7 +22,7 @@ line-height: 17px;
     font-family: inherit;
 }
 
-.popup__input::-moz-placeholder          {
+.popup__input::-moz-placeholder {
     font-family: inherit;
 }
 
