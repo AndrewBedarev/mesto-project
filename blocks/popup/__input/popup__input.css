@@ -1,15 +1,15 @@
 .popup__input {
     border: 0;
-    border-bottom: 1px solid #000000;
-   font-family: inherit;
-   padding: 0;
-   padding-bottom: 12px;
-   font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-family: inherit;
+    padding: 0;
+    padding-bottom: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .popup__input:focus{

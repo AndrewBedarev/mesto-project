@@ -1,9 +1,9 @@
 .element {
-    max-width: 100%;
+    max-width:100%;
 }
 
-@media screen and (max-width: 576px) {
-    .element {
-        max-width: 282px;
-    }
+@media screen and (max-width:576px) {
+.element {
+    max-width:282px;
+}
 }

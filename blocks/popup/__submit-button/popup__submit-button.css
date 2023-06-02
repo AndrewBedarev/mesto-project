@@ -11,19 +11,19 @@
     cursor: pointer;
     transition: 0.3s ease;
     font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-align-self: flex-end;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    align-self: flex-end;
 }
 
 @media screen and (max-width: 620px) {
 .popup__submit-button {
     font-size: 14px;
-line-height: 17px;
-margin-top: 45px;
-max-width: 238px;
-height: 46px;
+    line-height: 17px;
+    margin-top: 45px;
+    max-width: 238px;
+    height: 46px;
 }
 }
 

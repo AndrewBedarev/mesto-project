@@ -19,11 +19,6 @@
 @import url(../blocks/profile/__add-button/profile__add-button.css);
 
 @import url(../blocks/popup/popup.css);
-
-/* Попап временно скрыт
-@import url(../blocks/popup/_opened/popup_opened.css);
-*/
-
 @import url(../blocks/popup/__close-button/popup__close-button.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__container/_profile/popup__container_profile_edit.css);
@@ -42,20 +37,8 @@
 @import url(../blocks/element/__like-button/element__like-button.css);
 
 /* Кнопка Like в активном состоянии временно выключена
-@import url(../blocks/element/__like-button/_active/element__like-button_active.css);
+@import url(../blocks/element/__like/_active/element__like-button_active.css);
 */
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-
-
-
-
-
-
-
-
-
-
-
