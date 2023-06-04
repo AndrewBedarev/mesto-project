@@ -11,7 +11,6 @@
 
 @media screen and (max-width: 870px) {
 .profile__items {
-    margin: 0;
     gap: 14px;
 }
 }

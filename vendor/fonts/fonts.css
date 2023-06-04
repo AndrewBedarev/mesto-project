@@ -13,9 +13,9 @@
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url(./inter/Inter-Regular.woff) format('woff'),
-    url(./inter/Inter-Regular.woff2) format('woff2'),
-    url(./inter/nter-Regular.ttf) format('truetype');
+    src: url(./inter/Inter-Medium.woff) format('woff'),
+    url(./inter/Inter-Medium.woff2) format('woff2'),
+    url(./inter/Inter-Medium.ttf) format('truetype');
 }
 
 @font-face {
