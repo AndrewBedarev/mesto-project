@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 576px) {
     .profile__items {
         grid-template-columns: 20px auto auto auto;
     }

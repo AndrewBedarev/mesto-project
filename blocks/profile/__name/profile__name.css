@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 576px) {
     .profile__name {
         text-align: center;
         grid-column: 2/4;

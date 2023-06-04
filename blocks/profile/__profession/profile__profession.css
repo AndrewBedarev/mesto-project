@@ -17,7 +17,7 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 576px) {
     .profile__profession {
         text-align: center;
         grid-column: 1/-1;
