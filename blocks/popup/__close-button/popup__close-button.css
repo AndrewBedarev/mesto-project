@@ -1,4 +1,4 @@
-.popup__close-button{
+.popup__close-button {
     width: 32px;
     height: 32px;
     border: none;
@@ -15,12 +15,12 @@
 }
 
 @media screen and (max-width: 620px) {
-.popup__close-button {
-    background-image: url(../../../images/popup/__close-button/popup__close-button-mobile.svg);
-    background-position: right;
-    top: -36px;
-    right: 0;
-}
+    .popup__close-button {
+        background-image: url(../../../images/popup/__close-button/popup__close-button-mobile.svg);
+        background-position: right;
+        top: -36px;
+        right: 0;
+    }
 }
 
 .popup__close-button:hover {

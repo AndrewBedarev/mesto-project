@@ -18,13 +18,13 @@
 }
 
 @media screen and (max-width: 620px) {
-.popup__submit-button {
-    font-size: 14px;
-    line-height: 17px;
-    margin-top: 45px;
-    max-width: 238px;
-    height: 46px;
-}
+    .popup__submit-button {
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 45px;
+        max-width: 238px;
+        height: 46px;
+    }
 }
 
 .popup__submit-button:hover {

@@ -6,11 +6,17 @@
     display: grid;
     -ms-grid-columns: auto 25px 22px;
     grid-template-columns: auto 22px;
-    gap: 16px 25px;
+    gap: 16px 18px;
 }
 
 @media screen and (max-width: 870px) {
-.profile__items {
-    gap: 14px;
+    .profile__items {
+        gap: 14px 10px;
+    }
 }
+
+@media screen and (max-width: 350px) {
+    .profile__items {
+        grid-template-columns: 20px auto auto auto;
+    }
 }

@@ -4,7 +4,7 @@
 }
 
 @media screen and (max-width: 874px) {
-.main-content {
-    max-width: 620px;
-}
+    .main-content {
+        max-width: 620px;
+    }
 }
